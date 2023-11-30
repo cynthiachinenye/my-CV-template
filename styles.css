@@ -58,7 +58,8 @@ body{
     border:2px solid #fff;
     border-radius:50%;
     background-size:cover;
-    background-image: url('/cynthia.png') no-repeat;
+    background: url('/facebook.jpg') no-repeat;
+    object-fit: cover;
     
 }
  
