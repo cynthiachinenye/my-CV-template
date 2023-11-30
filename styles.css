@@ -7,4 +7,35 @@ body{
     font-family: 'Mulish', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
+
+
+
 }
+
+#container{
+    /* background-color:#000; */
+    width:800px;
+    height:900px;
+    margin:50px auto;
+    position: relative;
+    border:1px solid #000;
+    border-radius:20px;
+    
+}
+ .header{
+    width:100%;
+    height:150px;
+    background:rgb(238, 196, 203);
+    position: absolute;
+    top:50px;
+    left:0;
+
+}
+.side-bar{
+  position: absolute;
+  width:250px; 
+  height:100%;
+  background: rgb(71, 145, 148); 
+  left:50px;
+}
+ 
