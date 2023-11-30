@@ -25,17 +25,42 @@ font-family: 'Roboto', sans-serif;
  .header{
     width:100%;
     height:150px;
-    background:rgb(238, 196, 203);
+    background:#e7c9bb;
     position: absolute;
     top:50px;
     left:0;
+    text-align:right;
+    
+ }
 
+.right-side {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:30px 20px 0px 40px;
+  color:#988982;
+}
+.right-side div{
+    color:rgb(173, 168, 168);
+    
 }
 .side-bar{
   position: absolute;
-  width:250px; 
+  width:220px; 
   height:100%;
-  background: rgb(71, 145, 148); 
-  left:50px;
+  background: #6e9b9b; 
+  left:30px;
+  top:0px;
+  z-index:2;
+}
+.side-bar .img{
+    width:220px;
+    height:220px; 
+    border:2px solid #fff;
+    border-radius:50%;
+    background-size:cover;
+    background: url('/pc.jpeg') no-repeat;
+    object-fit: cover;
 }
  
