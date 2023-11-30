@@ -37,7 +37,7 @@ body{
   align-items:center;
   justify-content:center;
   padding:30px 20px 0px 40px;
-  color:#988982;
+  color:#2a1f1a;
 }
 .right-side div{
     color:rgb(173, 168, 168);
@@ -53,13 +53,14 @@ body{
   z-index:2;
 }
 .side-bar .img{
-    width:220px;
-    height:220px; 
+    width:200px;
+    height:200px; 
     border:2px solid #fff;
     border-radius:50%;
     background-size:cover;
     background: url('/facebook.jpg') no-repeat;
     object-fit: cover;
+    margin:40px auto;
     
 }
  
