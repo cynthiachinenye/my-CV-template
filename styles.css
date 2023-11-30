@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Mulish', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-
-
+    font-family: 'Lora','Lato', sans-serif, serif;
+    
+    
 
 }
 
@@ -60,7 +58,7 @@ font-family: 'Roboto', sans-serif;
     border:2px solid #fff;
     border-radius:50%;
     background-size:cover;
-    background: url('/pc.jpeg') no-repeat;
-    object-fit: cover;
+    background-image: url('/cynthia.png') no-repeat;
+    
 }
  
