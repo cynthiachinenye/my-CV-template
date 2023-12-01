@@ -97,7 +97,16 @@ p{
     top:250px;
     left:400px;
     right:0;
-    border:1px solid #000;
     width:50%;
+
+}
+.middle-side .head{
+    display:flex;
+    align-items:center;
+}
+.head .fa-angles-right{
+    padding-right:10px;
+    color:#6e9b9b;
+    font-size:23px;
 
 }
