@@ -69,7 +69,7 @@ body{
     padding:20px 10px;
     
 }
-h3{
+ .side-bar h3{
     text-transform: uppercase;
     text-align:center;
     padding-bottom:5px;
@@ -87,12 +87,16 @@ p{
  div a{
     text-decoration:none;
     color:#fff;
-    display:flex;
-    padding-top:15px;
+    /* display:flex; */
+    padding:15px;
     font-size:12px;
     justify-content: space-evenly;
     align-items:center;
+    cursor:pointer;
 
+}
+div a .fa{
+    padding-right:8px;
 }
 .middle-side{
     position:absolute;
@@ -129,4 +133,7 @@ p{
 ul{
     list-style: circle;
     padding-left:30px;
+}
+.contents h3{
+    font-size: 12px;
 }
