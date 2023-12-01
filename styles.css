@@ -101,7 +101,7 @@ p{
 
 
 }
-.middle-side .contents{
+ .contents{
  display:flex;
  flex-direction:column;
  padding-top:20px;
@@ -109,10 +109,14 @@ p{
 .middle-side .head{
     display:flex;
     align-items:center;
+    text-transform: uppercase;
 }
 .head .fa-angles-right{
     padding-right:10px;
     color:#6e9b9b;
     font-size:23px;
 
+}
+ul{
+    list-style: circle;
 }
