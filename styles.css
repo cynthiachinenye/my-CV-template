@@ -95,7 +95,7 @@ p{
     cursor:pointer;
 
 }
-div a .fa{
+div a .fa, .fa-brands{
     padding-right:8px;
 }
 .middle-side{
