@@ -73,6 +73,7 @@ h3{
     text-transform: uppercase;
     text-align:center;
     padding-bottom:5px;
+    font-size: 18px;
 }
 p{
     font-size:15px;
@@ -96,11 +97,14 @@ p{
 .middle-side{
     position:absolute;
     top:250px;
-    left:400px;
+    left:300px;
     right:0;
     width:50%;
 
 
+}
+.contents p{
+    padding-left: 20px;
 }
  .contents{
  display:flex;
@@ -112,6 +116,10 @@ p{
     align-items:center;
     text-transform: uppercase;
 }
+.head h2{
+    font-size:20px;
+    padding:5px 0;
+}
 .head .fa-angles-right{
     padding-right:10px;
     color:#6e9b9b;
@@ -120,4 +128,5 @@ p{
 }
 ul{
     list-style: circle;
+    padding-left:30px;
 }
