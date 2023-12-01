@@ -100,6 +100,10 @@ p{
     width:50%;
 
 }
+.middle-side .contents{
+ display:flex;
+ flex-direction:column;
+}
 .middle-side .head{
     display:flex;
     align-items:center;
